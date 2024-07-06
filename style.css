@@ -135,7 +135,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    margin: 2% 20px;
+    margin: 2%;
 }
 .categories img
 {
@@ -772,7 +772,7 @@ font-size: 30px;
     {
         display: none;
     }
-    .categories__s1 img
+    .categories__s1 i
     {
         display: none;
     }
@@ -814,6 +814,12 @@ font-size: 30px;
         display: block;
         font-size: 14px;
         margin: 0 5px;
+    }
+    .card__container
+    {
+        font-size: 2px;
+        border: none;
+
     }
     
 }
