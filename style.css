@@ -28,6 +28,8 @@ body{
 .navbar__s1
 {
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .navbar__title
 {
@@ -760,13 +762,13 @@ font-size: 30px;
 
 
 /* Media Queries */
-
-@media screen and (max-width:800px) {
+@media screen and (max-width:1000px) {
     body
     {
-        font-size: 10px;
+        font-size: 10px !important;
     }
 }
+
 @media screen and (max-width:800px) {
     .navbar__s2
     {
@@ -800,6 +802,36 @@ font-size: 30px;
     {
         display: none;
     }
+    .categories__s1 h2
+    {
+        display: block;
+        font-size: 12px;
+    }
+    .searchbar
+    {
+        font-size: 10px;
+    }
+    .searchbar input, .searchbar button
+    {
+        /* width: 70%; */
+        font-size: 14px;
+    }
+    .card h2
+    {
+        font-size: 20px;
+    }
+    .card p
+    {
+        font-size: 16px;
+    }
+    .social
+    {
+        display: none;
+    }
+    .footer_content__s1 h6, .footer_content__s2 h6, .footer_content__s3__one h6, .footer_content__s3__two h6, .footer_content__s4 h6
+    {
+        font-size: 14px;
+    }
 }
 @media screen and (max-width:600px) {
     .navbar__s3{
@@ -811,9 +843,7 @@ font-size: 30px;
     }
     .categories__s1 h2
     {
-        display: block;
-        font-size: 14px;
-        margin: 0 5px;
+        display: none;
     }
     .card__container
     {
@@ -821,5 +851,36 @@ font-size: 30px;
         border: none;
 
     }
+    .navbar__title, .popular__title, .suggestion h2, .rentals h2
+    {
+    font-size: 18px !important;
+    }
+    .place h1
+    {
+        font-size: 28px;
+    }
+    .popular__subtitle, .suggestion h3
+    {
+        font-size: 14px;
+    }
+    .popular__container__title, .popular__container h3, .rentals__container__card h4
+    {
+        font-size: 12px !important;
+    }
+    .rentals__container__card p
+    {
+        font-size: 10px;
+    }
     
+    .card__container__image img
+    {
+        
+        margin-top: 20px;
+        align-items: center;
+        width: 100%;
+    }
+    .suggestion__title h1
+    {
+        font-size: 14px;
+    }
 }
