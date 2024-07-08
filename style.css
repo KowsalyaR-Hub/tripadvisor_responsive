@@ -886,6 +886,6 @@ font-size: 30px;
     }
     .suggestion__title h1, .card__container__title h1
     {
-        font-size: 14px;
+        font-size: 14px !important;
     }
 }
