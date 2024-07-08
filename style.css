@@ -884,7 +884,7 @@ font-size: 30px;
         align-items: center;
         width: 100%;
     }
-    .suggestion__title h1
+    .suggestion__title h1, .card__container__title h1
     {
         font-size: 14px;
     }
