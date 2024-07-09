@@ -228,10 +228,10 @@ body{
 }
 .hero__text
 {
+    width: 50%;
     position: absolute;
     top: 10px;
-    left: 60px;
-    width: fit-content;
+    left: 50px;
 }
 .hero__text h1
 {
@@ -772,6 +772,9 @@ font-size: 30px;
     {
         font-size: 10px !important;
     }
+    .hero__text button{
+        display: none;
+    }
 }
 
 @media screen and (max-width:800px) {
@@ -786,6 +789,7 @@ font-size: 30px;
     .hero__text
     {
         display: none;
+        /* width: 100%; */
     }
     .explore
     {
